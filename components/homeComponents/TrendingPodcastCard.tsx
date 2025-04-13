@@ -1,10 +1,12 @@
-import {View, Text, Image} from 'react-native'
+import {View, Text, Image, TouchableHighlight} from 'react-native'
 import React from 'react'
 // @ts-ignore
 import playIcon from "@/assets/images/home/trendings_podcasts/playIcon.png";
-import {imageStructure, trendingPodcastCardProps} from "@/types";
+import {trendingPodcastCardProps} from "@/types";
+import {useRouter} from "expo-router";
 
 const TrendingPodcastCard = ({item}: {item: trendingPodcastCardProps}) => {
+    const router = useRouter();
     return (
         <View className={"flex-row justify-between gap-3"}>
             <View className={"flex-row  gap-4 flex-1"}>
@@ -16,10 +18,17 @@ const TrendingPodcastCard = ({item}: {item: trendingPodcastCardProps}) => {
                 </View>
             </View>
             <View className={"flex-row justify-center items-center"}>
-                <View className={"flex-row justify-center items-center relative w-16 h-16 rounded-full overflow-hidden"}>
-                    <View className={"bg-[#4C0099] opacity-10 absolute w-full h-full"}></View>
-                    <Image source={playIcon} />
-                </View>
+                <TouchableHighlight
+                    underlayColor={"#ddd"}
+                    onPress={() => router.push("/podcast/123456789")}
+                    className={"flex-row justify-center items-center relative w-16 h-16 rounded-full overflow-hidden"}
+                >
+                    <>
+                        <View className={"bg-[#4C0099] opacity-10 absolute w-full h-full"}></View>
+                        <Image source={playIcon} />
+                    </>
+
+                </TouchableHighlight>
             </View>
         </View>
     )

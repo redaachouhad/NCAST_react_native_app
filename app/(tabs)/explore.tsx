@@ -69,7 +69,6 @@ const Explore = () => {
 
                 {/* Trending Podcasts   */}
                 <HomeBlock
-                    title={""}
                     seeMore={false}
                     component={
                         <FlatList

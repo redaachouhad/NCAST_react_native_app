@@ -9,7 +9,13 @@ import trend_podcast2 from "@/assets/images/home/trendings_podcasts/trendingPodc
 
 // @ts-ignore
 import trend_podcast3 from "@/assets/images/home/trendings_podcasts/trendingPodcast3.png";
-import {continueListeningCardProps, imageStructure, topCategoryCardProps, trendingPodcastCardProps} from "@/types";
+import {
+    continueListeningCardProps,
+    imageStructure,
+    topCategoryCardProps,
+    trendingPodcastCardProps,
+    trendingPodcastScreen
+} from "@/types";
 
 
 
@@ -63,3 +69,62 @@ export const topFivePodcastsImages : imageStructure[] = [
     {id: 3, url: top_podcast1},
     {id: 4, url: top_podcast2},
 ]
+
+
+// -------------------- trending podcasts screen -----------------------
+// @ts-ignore
+import trend_podcast_screen1 from "@/assets/images/trending_podcasts_screen/trending_podcasts/trending_podcast1.png";
+// @ts-ignore
+import trend_podcast_screen2 from "@/assets/images/trending_podcasts_screen/trending_podcasts/trending_podcast2.png";
+// @ts-ignore
+import trend_podcast_screen3 from "@/assets/images/trending_podcasts_screen/trending_podcasts/trending_podcast3.png";
+// @ts-ignore
+import trend_podcast_screen4 from "@/assets/images/trending_podcasts_screen/trending_podcasts/trending_podcast4.png";
+
+
+export const trendPodcastScreenImages : trendingPodcastScreen[] = [
+    {id: 1, url: trend_podcast_screen1, title:"Mind of an Entrepreneur", category: "Business" },
+    {id: 2, url: trend_podcast_screen2, title:"Unravelling the Mind", category: "Healthy Lifestyle"},
+    {id: 2, url: trend_podcast_screen3, title:"A Tale of Writer", category: "Educational"},
+    {id: 2, url: trend_podcast_screen4, title:"Addiction to Social!", category: "Sociology"},
+]
+
+
+// --------------------------- Recommended for you ---------------------------
+
+// @ts-ignore
+import recommended_for_you1 from "@/assets/images/trending_podcasts_screen/recommended_for_you/recommended_for_you1.png";
+// @ts-ignore
+import recommended_for_you2 from "@/assets/images/trending_podcasts_screen/recommended_for_you/recommended_for_you2.png";
+
+export const recommendedForYouImages: trendingPodcastCardProps[] = [
+    {id: 1, url: recommended_for_you1, title:"Mind map", creator:"Health & Lifestyle", duration: 10},
+    {id: 2, url: recommended_for_you2, title:"True Crime", creator:"Investigation Theories", duration: 24},
+];
+
+
+// --------------------------------- Favourite Podcasts -----------------------
+
+// @ts-ignore
+import favourite_podcast1 from "@/assets/images/favourite_podcasts/favourite_podcast1.png";
+// @ts-ignore
+import favourite_podcast2 from "@/assets/images/favourite_podcasts/favourite_podcast2.png";
+// @ts-ignore
+import favourite_podcast3 from "@/assets/images/favourite_podcasts/favourite_podcast3.png";
+// @ts-ignore
+import favourite_podcast4 from "@/assets/images/favourite_podcasts/favourite_podcast4.png";
+// @ts-ignore
+import favourite_podcast5 from "@/assets/images/favourite_podcasts/favourite_podcast5.png";
+// @ts-ignore
+import favourite_podcast6 from "@/assets/images/favourite_podcasts/favourite_podcast6.png";
+
+export const favouritePodcastsImages : trendingPodcastCardProps[] = [
+    {id: 1, url: favourite_podcast1, title:"Sunday Summer - Ep3", creator:"Entertainment", duration: 15},
+    {id: 2, url: favourite_podcast2, title:"Musical Soul - Vol. 1", creator:"Lifestyle", duration: 30},
+    {id: 3, url: favourite_podcast3, title:"Talk Show - Ep4", creator:"Business", duration: 25},
+    {id: 4, url: favourite_podcast4, title:"Musical Soul - Vol. 2", creator:"Lifestyle", duration: 5},
+    {id: 5, url: favourite_podcast5, title:"Unravelling The Mind", creator:"Healthy Lifestyle", duration: 45},
+    {id: 6, url: favourite_podcast6, title:"Talk Show - Ep8", creator:"Entertainment", duration: 35},
+]
+
+

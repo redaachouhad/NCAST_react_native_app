@@ -21,3 +21,8 @@ export interface topCategoryCardProps extends imageStructure {
     title: string;
     num_of_podcasts: number;
 }
+
+export interface trendingPodcastScreen extends imageStructure {
+    title: string;
+    category: string;
+}
