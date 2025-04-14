@@ -1,5 +1,6 @@
 import {View, Text, Image} from 'react-native'
 import React from 'react'
+// @ts-ignore
 import profileUser from "@/assets/images/profile_image.jpg";
 
 const UserProfile = () => {
