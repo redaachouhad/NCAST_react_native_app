@@ -1,6 +1,41 @@
+# Screens of the app:
+
+## Introduction Screen:
+![firstpage.png](assets/images/readme/firstpage.png)
+
+## Sign In Screen
+![signin.png](assets/images/readme/signin.png)
+
+## Sign Up Screen
+![signup.png](assets/images/readme/signup.png)
+
+## Home Page Screen:
+![home1.png](assets/images/readme/home1.png)
+
+![home2.png](assets/images/readme/home2.png)
+
+![home3.png](assets/images/readme/home3.png)
+
+## Trending Screen
+![trending_podcasts.png](assets/images/readme/trending_podcasts.png)
+
+## Explore Screen
+![explore.png](assets/images/readme/explore.png)
+
+## Favourite Screen
+![favourite_podcasts.png](assets/images/readme/favourite_podcasts.png)
+
+## User's Profile Screen
+![profile_user.png](assets/images/readme/profile_user.png)
+
+## Playing Podcast Screen
+![podcast_id_screen.png](assets/images/readme/podcast_id_screen.png)
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
 
 ## Get started
 
